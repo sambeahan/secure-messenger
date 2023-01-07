@@ -1,0 +1,42 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="static/style.css" rel="stylesheet">
+    <link rel="icon" href="static/icon.png" type="image/x-icon" />
+    <title>Secure Messenger</title>
+</head>
+
+<body style="display: flex;">
+    <h1 style="margin-left: 10px;">Secure Messenger</h1>
+    <div>
+        <div class="med_round seperator_div" style="width: 30%; margin:auto; margin-top: 40px">
+            <h2>Log in</h2>
+            <div style="width:300px; display:table">
+                <p style="display:table-cell; width: auto;">Username:</p> <input type="text" id="username" name="username"
+                    class="dark_round input" style="display:table-cell; width:100%" />
+            </div>
+            <div style="width:300px; display:table">
+                <p style="display:table-cell; width: auto;">Password:</p>
+                <input type="password" id="password" name="password" class="dark_round input"
+                    style="display:table-cell; width:100%" />
+            </div>
+            <div style="width:300px; display:table">
+                <p style="display:table-cell; width:auto">Private key:</p>
+                <input style="display:table-cell; width:100%" type="text" id="private_key" name="private_key"
+                    class="dark_round input" />
+            </div>
+            <button id="login_button">Log In</button>
+            <p id='msg'></p>
+        </div>
+        <div class="med_round" style="width: 30%; margin: auto; margin-top: 10px; padding: 5px; ">
+            <p>
+                Log in to Secure Messenger using your username, password and private key. if you have forgotten or lost any of these requirements, you will have to make a new account
+                <a style="display: inline-block;" href="/sign_up">here</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/2.0.2/sha.js"></script>
+    <script src="static/login.js"></script>
+</body>

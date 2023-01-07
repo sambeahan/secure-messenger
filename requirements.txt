@@ -1,0 +1,4 @@
+flask
+dataset
+gunicorn
+psycopg2

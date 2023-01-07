@@ -1,0 +1,76 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="static/style.css" rel="stylesheet">
+    <link rel="icon" href="static/icon.png" type="image/x-icon" />
+    <title>Secure Messenger</title>
+</head>
+
+<body style="display: flex;">
+    <h1 style="padding-left: 10px;">Secure Messenger</h1>
+    <div style="padding-left: 5%;">
+        <div class="med_round seperator_div" style="width: 40%; margin: auto; margin-top: 40px;">
+            <h2>Sign up</h2>
+            <div style="width:300px; display:table">
+                <p style="display:table-cell; width: auto;">Username:</p> <input type="text" id="username" name="username"
+                    class="dark_round input" style="display:table-cell; width:100%" />
+            </div>
+            <div style="width:300px; display:table">
+                <p style="display:table-cell; width: auto;">Password:</p>
+                <input type="password" id="password1" name="password" class="dark_round input"
+                    style="display:table-cell; width:100%" />
+            </div>
+            <div style="width:300px; display:table">
+                <p style="display:table-cell; width:auto">Confirm password:</p>
+                <input style="display:table-cell; width:100%" type="password" id="password2" name="password"
+                    class="dark_round input" />
+            </div>
+            <p>Choose a profile colour: </p>
+            <label>
+                <input type="radio" id="blue" name="profile_colour" value="blue" checked>
+                <div class="colours med_round blue"></div>
+            </label>
+            <label>
+                <input type="radio" id="green" name="profile_colour" value="green">
+                <div class="colours med_round green"></div>
+            </label>
+            
+            <label>
+                <input type="radio" id="orange" name="profile_colour" value="orange">
+                <div class="colours med_round orange"></div>
+            </label>
+            <label>
+                <input type="radio" id="yellow" name="profile_colour" value="yellow">
+                <div class="colours med_round yellow"></div>
+            </label>
+            <label>
+                <input type="radio" id="red" name="profile_colour" value="red">
+                <div class="colours med_round red"></div>
+            </label>
+            <label>
+                <input type="radio" id="purple" name="profile_colour" value="purple">
+                <div class="colours med_round purple"></div>
+            </label>
+            <button id="user_submit">Enter</button>
+            <p id='msg'></p>
+        </div>
+        <div class="med_round" style="width: 30%; margin: auto; margin-top: 10px; padding: 5px; ">
+            <p>
+                Sign up to Secure Messenger by choosing a username, password and profile colour. Your username is how other users will find you to start a conversation. <br>Your password will be encrypted using a cryptographic hash function before it is uploaded to the server to ensure it stays safe. <br> Your profile colour will display next to you username when other user's are messaging you. If you already have an account log in
+                <a style="display: inline-block;" href="/login">here</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first 
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+     TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries 
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/2.0.2/sha.js"></script>
+    <script src="static/sign_up.js"></script>
+</body>

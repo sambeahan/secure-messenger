@@ -1,0 +1,178 @@
+body {
+    background-color: #333333;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    padding-top: 0px;    
+  }
+  
+h1 {
+    font-size: 24px;
+  }
+
+h2 {
+    font-size: 18px;
+  }
+  
+p {
+    font-size: 14px;
+    width: auto;
+  }
+
+
+
+.input {
+    color: white;
+    border-width: 0px;
+    width: 100%;
+  }
+
+button {
+    border-width: 0px;
+    background-color: white;
+    color: #333333;
+    border-radius: 5px;
+}
+
+.seperator_div {
+    padding-left :10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.invisidiv{
+    display: flex;
+}
+
+.dark_round {
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+.med_round {
+    background-color: #666666;
+    border-radius: 5px;
+}
+
+.med_square {
+    background-color: #666666;
+    border-color: #333333;
+    border-radius: 0px;
+    border-style: none;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.dark_square {
+  background-color: #333333;
+  border-radius: 0px;
+  border-style: none;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+.blue {
+    background-color: #DAE8FC;
+    border-color: #6C8EBF;
+}
+
+.green {
+  background-color: #D5E8D4;
+  border-color: #82B366;
+}
+
+.orange {
+  background-color: #FFE6CC;
+  border-color: #D79B00;
+}
+
+.yellow {
+  background-color: #FFF2CC;
+  border-color: #D79B00;
+}
+
+.red {
+  background-color: #F8CECC;
+  border-color: #B85450;
+}
+
+.purple {
+  background-color: #E1D5E7;
+  border-color: #9673A6;
+}
+
+.colours {
+  width: 15px; 
+  height: 15px; 
+  border-radius: 15px; 
+  display: inline-block;
+  vertical-align: middle;
+  
+  border-width: 3px;
+  border-style: solid;
+}
+
+.message_left {
+  background-color: #666666;
+  border-radius: 5px;
+  width: 40%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding: 5px;
+  margin-bottom: 2px;
+  overflow-wrap: anywhere;
+}
+
+.message_right {
+  background-color: #666666;
+  border-radius: 5px;
+  width: 40%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: auto;
+  margin-right: 0px;
+  margin-bottom: 2px;
+  padding: 5px;
+  overflow-wrap: anywhere;
+}
+
+.conv {
+  border-width: 0px;;
+  border-top-width: 1px;
+  border-color: #666666;
+  padding: 5px;
+  border-style: solid;
+  
+}
+.conv:hover {
+  background-color: #666666;
+}
+
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.name_text {
+  margin: 3px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+a {
+  color: lightblue;
+}
+
+a:visited {
+  color: hotpink;
+}

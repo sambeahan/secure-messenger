@@ -1,0 +1,1 @@
+document.getElementById('private_key').innerText = ': ' + localStorage['Private key']
